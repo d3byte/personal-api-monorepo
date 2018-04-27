@@ -19,4 +19,4 @@ app.use('/lexium', lexiumRoutes)
 app.use('/yandex', yandexRoutes)
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.listen(80, () => console.log('Express app listening on localhost:4000'))
+app.listen(80, () => console.log('Express app listening on localhost:80'))
